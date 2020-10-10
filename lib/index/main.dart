@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import '../scafold/main.dart';
 import '../slider/main.dart';
 import '../bottom-navigation-bar/main.dart';
+import '../drawer/main.dart';
 
 class Index extends StatelessWidget {
   @override
@@ -21,13 +22,15 @@ class Home extends StatelessWidget {
     'Stateful widget',
     'Scaffold with snack bar',
     'Slider',
-    'Bottom Navigation bar'
+    'Bottom Navigation bar',
+    'Drawer'
   ];
   final mapNavigation = {
     0: TestState(),
     1: ScaffoldBody(),
     2: CustomSlider(),
-    3: BottomBar()
+    3: BottomBar(),
+    4: DrawerDemo()
   };
   @override
   Widget build(BuildContext context) {
