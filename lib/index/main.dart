@@ -6,6 +6,7 @@ import '../scafold/main.dart';
 import '../slider/main.dart';
 import '../bottom-navigation-bar/main.dart';
 import '../drawer/main.dart';
+import '../switch/main.dart';
 
 class Index extends StatelessWidget {
   @override
@@ -23,14 +24,16 @@ class Home extends StatelessWidget {
     'Scaffold with snack bar',
     'Slider',
     'Bottom Navigation bar',
-    'Drawer'
+    'Drawer',
+    'Switch'
   ];
   final mapNavigation = {
     0: TestState(),
     1: ScaffoldBody(),
     2: CustomSlider(),
     3: BottomBar(),
-    4: DrawerDemo()
+    4: DrawerDemo(),
+    5: SwitchDemo()
   };
   @override
   Widget build(BuildContext context) {
