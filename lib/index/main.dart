@@ -7,6 +7,7 @@ import '../slider/main.dart';
 import '../bottom-navigation-bar/main.dart';
 import '../drawer/main.dart';
 import '../switch/main.dart';
+import '../api-call/main.dart';
 
 class Index extends StatelessWidget {
   @override
@@ -25,7 +26,8 @@ class Home extends StatelessWidget {
     'Slider',
     'Bottom Navigation bar',
     'Drawer',
-    'Switch'
+    'Switch',
+    'API Calls'
   ];
   final mapNavigation = {
     0: TestState(),
@@ -33,7 +35,8 @@ class Home extends StatelessWidget {
     2: CustomSlider(),
     3: BottomBar(),
     4: DrawerDemo(),
-    5: SwitchDemo()
+    5: SwitchDemo(),
+    6: APICALL()
   };
   @override
   Widget build(BuildContext context) {

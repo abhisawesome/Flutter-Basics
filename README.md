@@ -1,4 +1,4 @@
-# sample
+# Flutter Basics
 
 A new Flutter project.
 
